@@ -12,7 +12,3 @@ RUN apt-get install -y dotnet-sdk-3.1
 
 # Install NerdBank.GitVersioning CLI
 RUN dotnet tool install --tool-path /tools nbgv
-
-# Install node and npm
-RUN apt-get install -y nodejs
-RUN apt-get install -y build-essential
