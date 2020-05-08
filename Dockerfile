@@ -12,3 +12,5 @@ RUN apt-get install -y dotnet-sdk-3.1
  
 # Install NerdBank.GitVersioning CLI
 RUN dotnet tool install --tool-path /tools nbgv
+
+RUN yarn global add @vue/cli
