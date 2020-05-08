@@ -9,6 +9,6 @@ RUN apt-get install apt-transport-https
 RUN dpkg -i packages-microsoft-prod.deb
 RUN apt-get update
 RUN apt-get install -y dotnet-sdk-3.1
-
+ 
 # Install NerdBank.GitVersioning CLI
 RUN dotnet tool install --tool-path /tools nbgv
